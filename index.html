@@ -1,5 +1,4 @@
 
-
 <!doctype html>
 <html>
   <head>
@@ -39,30 +38,36 @@ body{
     margin:0px;
     padding : 20px
   }
-
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
 </style>
+
 </head>
-
-
 <body>
 
  <h1><a href = "index.html" target="_blank" title="index.html 접속" class="saw">
  WEB </a> </h1>
- <ol>
-  <li><a href = "1.html">HTML</a></li>
-  <li><a href = "2.html" target="_blank" title = "2.html 접속">CSS</a></li>
-  <li><a href = "3.html" target = "_blank" tilte = "3.html 접속">JAVASCRIPT</a></li>
-</ol>
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/tZooW6PritE" frameborder="0" allow="a
-ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>
+<div id ="grid">
+  <ol>
+    <li><a href = "1.html">HTML</a></li>
+    <li><a href = "2.html" target="_blank" title = "2.html 접속">CSS</a></li>
+    <li><a href = "3.html" target = "_blank" tilte = "3.html 접속">JAVASCRIPT</a></li>
+  </ol>
+  <div>
+   <p><iframe width="560" height="315" src="https://www.youtube.com/embed/tZooW6PritE" frameborder="0" allow="a
+   ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>
 
-<h2> WEB 이란 무엇인가? </h2>
-<p> <a href = "https://ko.wikipedia.org/wiki/Web_of_Science" target = "_blank" title="web "> Web </a> of Science는<br>
-Clarivate Analytics가 제공하는 인용색인 <strong><u>데이터베이스</u></strong>인 SCIE(Science Citation Index Expanded),<br>
-SSCI (Social Sciences Citation Index), A & HCI (Art & Humanities Citation Index)를 WEB에서 동시에 검색할 수 있는 웹데이터베이스이다.<br>
-검색 결과의 해당 도서관에서 제공하는 전자저널의 원문 정보나 저널의 소장 정보,<br>
-다른 데이터베이스 정보 등을 바로 검색할 수 있는 링크를 제공한다.<br> </P>
+   <h2> WEB 이란 무엇인가? </h2>
+   <p> <a href = "https://ko.wikipedia.org/wiki/Web_of_Science" target = "_blank" title="web "> Web </a> of Science는<br>
+   Clarivate Analytics가 제공하는 인용색인 <strong><u>데이터베이스</u></strong>인 SCIE(Science Citation Index Expanded),<br>
+   SSCI (Social Sciences Citation Index), A & HCI (Art & Humanities Citation Index)를 WEB에서 동시에 검색할 수 있는 웹데이터베이스이다.<br>
+   검색 결과의 해당 도서관에서 제공하는 전자저널의 원문 정보나 저널의 소장 정보,<br>
+   다른 데이터베이스 정보 등을 바로 검색할 수 있는 링크를 제공한다.<br> </P>
+ </div>
+</div>
 
 <p>
   <div id="disqus_thread"></div>
@@ -85,7 +90,6 @@ SSCI (Social Sciences Citation Index), A & HCI (Art & Humanities Citation Index)
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </p>
-
 <p>
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">
@@ -101,6 +105,5 @@ SSCI (Social Sciences Citation Index), A & HCI (Art & Humanities Citation Index)
   </script>
   <!--End of Tawk.to Script-->
 </p>
-
   </body>
 <html>
